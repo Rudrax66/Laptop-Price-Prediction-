@@ -2,11 +2,14 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-# Load trained model
-with open("laptop_price_model.pkl", "rb") as f:
-    model = pickle.load(f)
-
 st.title("💻 Laptop Price Prediction")
+
+@st.cache_resource
+def load_model():
+    with open("laptop_price_model.pkl", "rb") as f:
+        return pickle.load(f)
+
+model = load_model()
 
 ram = st.number_input("RAM (GB)", 4, 64, step=4)
 ram_type = st.selectbox("RAM Type", ["DDR3", "DDR4", "DDR5"])
