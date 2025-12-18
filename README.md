@@ -1,5 +1,9 @@
 # Laptop-Price-Prediction
 
+git add requirements.txt
+git commit -m "add requirements.txt"
+git push
+
 💻 Laptop Price Prediction System
 
 This project is a Machine Learning based Laptop Price Prediction System built using Python, Scikit-learn, and Streamlit.
