@@ -7,7 +7,7 @@ import streamlit as st
 # =========================
 # CONFIG
 # =========================
-MODEL_FILE = "laptop_price_model.pkl"
+MODEL_FILE = "laptop_model.pkl"
 
 st.set_page_config(page_title="Laptop Price Prediction", layout="centered")
 
@@ -75,3 +75,4 @@ if st.button("Predict Price"):
     except Exception as e:
         st.error("❌ Prediction failed")
         st.exception(e)
+
