@@ -72,7 +72,7 @@ Data Science & AI/ML Student
 
 📧 Email: patelrudrax8@gmail.com
 
-🔗 LinkedIn: View Profile
+🔗 LinkedIn: https://www.linkedin.com/in/rudrax-chodvadiya-17780437b/
 
 ⭐ Future Improvements
 
